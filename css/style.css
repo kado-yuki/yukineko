@@ -1,0 +1,96 @@
+/* common */
+body {
+ margin: 0;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+h1,
+h2
+p{
+  margin: 0;
+  font-family: 'Sitka Banner'
+}
+
+/* header */
+header{
+  background:#F7DAF6;
+}
+
+header .container {
+  width: 400px;
+  margin: 0 auto;
+ padding:20px;
+  display: flex;
+  align-items: center;
+}
+
+header .container div + div {
+margin-left: 25px;
+}
+
+header h1{
+  color:#AC8A77;
+  /* color:rgb(188, 167, 156); */
+  border-bottom:4px dotted whitesmoke;
+}
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header ul li +li {
+  margin-left: 8px;
+}
+/* main */
+
+main {
+  background-color: #fffaf0;
+}
+main .container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: 24px;
+  font-family: 'Sitka Banner';
+  color:#AC8A77;
+  text-align: center;
+  padding: 36px 0;
+}
+
+main h2{
+  font-size: 20px;
+font-family: 'Sitka Banner';
+  color:#AC8A77;
+  text-align: center;
+  border-bottom:2px dotted peachpuff;
+  margin-top: 12px;
+}
+
+main p{
+  font-family: 'Helvetica Neue','Helvetica','Arial','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  color:#AC8A77;
+  font-size: 15px;
+}
+
+main section + section {
+  margin-top: 30px;
+}
+/* footer */
+
+footer{
+  padding:  50px 0;
+ text-align: center;
+ background-size: auto auto;
+background-color: rgba(255, 255, 255, 1);
+background-image: repeating-linear-gradient(90deg, transparent, transparent 5px, rgba(175, 146, 173, 0.47) 5px, rgba(175, 146, 173, 0.47) 10px );
+}
+footer small{
+  color:rgb(113, 106, 106);
+  font-size: 12px;
+}
